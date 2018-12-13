@@ -15,7 +15,7 @@ public class FlightLogin {
      private String url;
 	@BeforeTest
 	public void init(){
-		System.setProperty("webdriver.chrome.driver", "E:\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/var/www/tool/chromedriver");
 	  driver = new ChromeDriver();
 	  url = "http://newtours.demoaut.com";
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
