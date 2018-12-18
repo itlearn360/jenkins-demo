@@ -16,7 +16,7 @@ public class FlightLogin {
      private String url;
 	@BeforeTest
 	public void init(){
-		System.setProperty("webdriver.chrome.driver", "/var/www/tool/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/var/www/tools/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized"); // open Browser in maximized mode
 		options.addArguments("disable-infobars"); // disabling infobars
