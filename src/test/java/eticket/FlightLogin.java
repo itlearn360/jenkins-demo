@@ -27,7 +27,7 @@ public class FlightLogin {
 		options.addArguments("--headless");
 	  driver = new ChromeDriver(options);
 	  url = "http://newtours.demoaut.com";
-	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	  driver.manage().timeouts().implicitlyWait(230, TimeUnit.SECONDS);
 	}
 	@Test
 	public void executeTest() {
